@@ -1,3 +1,5 @@
+// Date 01/09/22
+
 // log values of country & continent
 const country = 'USA';
 const continent = 'North America';
