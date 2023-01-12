@@ -20,7 +20,7 @@ function findOdd(list) {
     
     // this will run through the array.length
 	for (let i = 0; i < list.length; i++) { 
-        // checks each el=ement in list to see if it returns 1 and if true pushes to new newArray
+        // checks each element in list to see if it returns 1 and if true pushes to new newArray
         if (list[i] % 2 === 1) {
             newArray.push(list[i])
 		}

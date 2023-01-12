@@ -35,7 +35,7 @@ const letterGrade = ["A", "B", "C", "D", "F"]; // storing letter grades in an ar
 function assignGrade(score) {
 
     if (score >= 90 && score <= 100 ) {
-
+        
         console.log(`Grade: ${letterGrade[0]}`)
 
     } else if (score >= 80 && score <= 89) {
