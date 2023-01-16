@@ -26,7 +26,7 @@ const trueInArr = (arr) => {
 		}
 		return counter
     }
-}h
+}
 clog(trueInArr(testArray))
 
 
