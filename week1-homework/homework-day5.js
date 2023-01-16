@@ -17,15 +17,16 @@ const testArray = [
 ];
 
 const trueInArr = (arr) => {
-	let counter = 0
-	
+	let trueArr = []
+
     // run through array and check each value
     for (let i = 0; i < arr.length; i++ ) {
 		if (arr[i] === true ) {
-			 counter++
+
+			 trueArr.push(arr[i]) // push booleans into trueArr
 		}
-		return counter
     }
+	return trueArr.length // return the amount of booleans in the trueArr
 }
 clog(trueInArr(testArray))
 
@@ -43,4 +44,16 @@ const combineTwoArrays = (arr1,arr2) => {
 clog(combineTwoArrays([1,2],[3,4]))
 
 
-//! 3. You are given 2 arrays, one called shoppingList and one called cart.
+//! 3. You are given 2 arrays, one called shoppingList and one called cart. Create a new version of shoppingList where the items in the cart have been removed. 
+
+const shoppingList = ['beer','milk','wine','bananas','sugar']
+const cart = ['milk','beer']
+
+const addedToCart = (list,cart) => {
+	const newShoppingList = [...list]
+	newShoppingList.
+
+	return 
+
+}
+clog(addedToCart(shoppingList,cart))
