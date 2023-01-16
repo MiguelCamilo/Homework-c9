@@ -17,7 +17,7 @@ const squared = (oldArray) => {
     const newArray = oldArray.map((n) => {
         return n ** 2 
     })
-    //TODO: ask if this a valid method of using  the spread operator */
+    
     return [...newArray]
 }
 

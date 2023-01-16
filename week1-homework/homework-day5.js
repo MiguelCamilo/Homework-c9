@@ -2,14 +2,14 @@
 
 const clog = log => console.log(log);
 
-const testArray = [ // solve if arr has a string 'true'
+const testArray = [ //! solve with a switch statement to still return true for strings
 	true, // 
 	false,
 	false,
 	true, //
 	false,
-	'false',
-	'true',
+	'false', // still considered true
+	'true', // true
 	true, //
 	1, //
 	true, //
@@ -21,7 +21,8 @@ const trueInArr = (arr) => {
 
     // run through array and check each value
     for (let i = 0; i < arr.length; i++ ) {
-		if (arr[i] === true ) {
+
+		if (arr[i] === true) {
 
 			 trueArr.push(arr[i]) // push booleans into trueArr
 		}
@@ -52,9 +53,16 @@ const cart = ['milk','beer']
 const addedToCart = (list,cart) => {
 	const newShoppingCart = []
 
-	if (!list.includes(cart[i])) {
-		newShoppingCart.push(list[i])
+	for (let i = 0; i < list.length; i++) {
+
+		// for the list arr dont include items in cart 
+		if (!list.includes(cart[i])) {
+
+			// then push these items that are not included in cart to newShoppingCart arr
+			newShoppingCart.push(list[i])
+		}
 	}
+
 	return newShoppingCart
 }
 clog(addedToCart(shoppingList,cart))
