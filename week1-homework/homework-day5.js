@@ -2,32 +2,32 @@
 
 const clog = log => console.log(log);
 
-// const testArray = [
-// 	true, // 
-// 	false,
-// 	false,
-// 	true, //
-// 	false,
-// 	false,
-// 	false,
-// 	true, //
-// 	true, //
-// 	true, //
-// 	false,
-// ];
+const testArray = [
+	true, // 
+	false,
+	false,
+	true, //
+	false,
+	false,
+	false,
+	true, //
+	true, //
+	true, //
+	false,
+];
 
-// const trueInArr = (arr) => {
-// 	let counter = 0
+const trueInArr = (arr) => {
+	let counter = 0
 	
-//     // run through array and check each value
-//     for (let i = 0; i < arr.length; i++ ) {
-// 		if (arr[i] === true ) {
-// 			 counter++
-// 		}
-// 		return counter
-//     }
-// }
-// clog(trueInArr(testArray))
+    // run through array and check each value
+    for (let i = 0; i < arr.length; i++ ) {
+		if (arr[i] === true ) {
+			 counter++
+		}
+		return counter
+    }
+}h
+clog(trueInArr(testArray))
 
 
 
