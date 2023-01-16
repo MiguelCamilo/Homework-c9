@@ -51,9 +51,10 @@ const cart = ['milk','beer']
 
 const addedToCart = (list,cart) => {
 	const newShoppingList = [...list]
-	newShoppingList.
+	// TODO: remove 'milk' and 'beer' from the arr
+	newShoppingList.filter()
 
-	return 
+	return newShoppingList
 
 }
 clog(addedToCart(shoppingList,cart))
