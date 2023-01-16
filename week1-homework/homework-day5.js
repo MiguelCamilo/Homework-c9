@@ -51,5 +51,10 @@ const cart = ['milk','beer']
 
 const addedToCart = (list,cart) => {
 	const newShoppingCart = []
+
+	if (!list.includes(cart[i])) {
+		newShoppingCart.push(list[i])
+	}
+	return newShoppingCart
 }
 clog(addedToCart(shoppingList,cart))
