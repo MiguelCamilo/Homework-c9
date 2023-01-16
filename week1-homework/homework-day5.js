@@ -2,22 +2,22 @@
 
 const clog = log => console.log(log);
 
-const testArray = [
+const testArray = [ // solve if arr has a string 'true'
 	true, // 
 	false,
 	false,
 	true, //
 	false,
-	false,
-	false,
+	'false',
+	'true',
 	true, //
+	1, //
 	true, //
-	true, //
-	false,
+	0,
 ];
 
 const trueInArr = (arr) => {
-	let trueArr = []
+	const trueArr = []
 
     // run through array and check each value
     for (let i = 0; i < arr.length; i++ ) {
@@ -50,11 +50,6 @@ const shoppingList = ['beer','milk','wine','bananas','sugar']
 const cart = ['milk','beer']
 
 const addedToCart = (list,cart) => {
-	const newShoppingList = [...list]
-	// TODO: remove 'milk' and 'beer' from the arr
-	newShoppingList.filter()
-
-	return newShoppingList
-
+	const newShoppingCart = []
 }
 clog(addedToCart(shoppingList,cart))
