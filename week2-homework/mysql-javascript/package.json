@@ -1,0 +1,20 @@
+{
+  "name": "sql-javascript-homework",
+  "version": "0.0.1",
+  "description": "",
+  "main": "homework-day2-mysql.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node homework-day2-mysql.js"
+  },
+  "keywords": [
+    "mysql",
+    "javascript"
+  ],
+  "author": "Miguel Camilo",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.0.1"
+  }
+}
