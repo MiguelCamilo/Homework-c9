@@ -57,4 +57,3 @@ const sum_of_even = (evenArr)  => {
 console.log(sum_of_even(even_in_arr(array_of_nums)))
 
 
-// Using Firestore, create a collection of your favorite childhood toys/games(at least 5)
