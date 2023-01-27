@@ -1,13 +1,12 @@
 // Write a function that takes your age in years and returns your age in minutes.
-// AgeInMin = AgeInYears * 365 * 1440
+AgeInMin = AgeInYears * 365 * 1440
 
-// const ageToMin = (age) => {
-//     const convert = ( age * 365 ) * 1440
-//     return  convert.toLocaleString() // returns the number in a string format seperated with commas
-// }
-// const age = 27
-// console.log(`Did you know theres is ${ageToMin(age)} minutes in the age ${age}!`)
-
+const ageToMin = (age) => {
+    const convert = ( age * 365 ) * 1440
+    return  convert.toLocaleString() // returns the number in a string format seperated with commas
+}
+const age = 27
+console.log(`Did you know theres is ${ageToMin(age)} minutes in the age ${age}!`)
 
 
 
